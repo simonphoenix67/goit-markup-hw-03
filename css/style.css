@@ -14,14 +14,57 @@ font-family: Roboto, sans-serif;
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.header-list:not(:last-child) {
+  padding-right: 50px;
+}
+
+.out {
+  padding-left: 331px;
+}
+
+.header {
+  width: 1600px;
+  min-height: 80px;
+}
+
+.header-container {
+display: flex;
+align-items: center;
+}
+
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 1px solid red;
+  /* align-items: center; */
+  /* text-align: center;
+  align-self: center */
 
-  display: flex;
-  align-items: center;
 }
+
+.cont-ul {
+  display: flex;
+  /* align-self: center; */
+justify-content: flex-end;
+}
+
 
 
 .logo{
@@ -33,6 +76,7 @@ font-family: Roboto, sans-serif;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    padding-right: 93px;
 }
 
 .list {
@@ -51,6 +95,8 @@ font-family: Roboto, sans-serif;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: inherit;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -80,6 +126,7 @@ color: var(--secondary-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 
@@ -232,6 +279,7 @@ text-decoration: none;
 
 .current-site {
   color: var(--brand-color);
+  padding-left: 94px;
 }
 
 .preview-header {
@@ -255,3 +303,15 @@ text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
+
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}  */
+
+/* ренеиминг
+на юл оставить класс флекс
+лишкам задать падинг
+убрать падинг 94
+делать внешние через марджин */
