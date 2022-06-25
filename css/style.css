@@ -389,10 +389,6 @@ text-decoration: none;
   margin-right: 8px;
 } */
 
-.button-list:not(:last-child) {
-margin-right: 8px;
-}
-
 
 .current, .blue-logo {
   color: var(--brand-color);
