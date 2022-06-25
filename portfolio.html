@@ -12,48 +12,60 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="site-nav">
-        <a href="./index.html" class="logo"
-          ><span class="blue-logo">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="links">Студия</a>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="site-nav">
+          <a href="" class="logo"><span class="blue-logo">Web</span>Studio</a>
+          <ul class="cont-ul list">
+            <li class="header-list">
+              <a href="./index.html" class="links header-height">Студия</a>
+            </li>
+            <li class="header-list">
+              <a href="./portfolio.html" class="links header-height current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-list">
+              <a href="" class="links header-height">Контанкты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-info list cont-ul">
+          <li class="header-container list-mail">
+            <a href="mailto:info@example.com" class="links header-height"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="./portfolio.html" class="current-site links">Портфолио</a>
-          </li>
-          <li>
-            <a href="" class="links">Контанкты</a>
+          <li class="header-container">
+            <a href="tel:+38 099 111 11 11" class="links header-height"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="contacts-info list">
-        <li>
-          <a href="mailto:info@example.com" class="links">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380991111111" class="links">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="section">
         <h1 class="hide-h1">Портфолио</h1>
         <ul class="filter list">
-          <li><button type="button" class="filter-button">Все</button></li>
-          <li><button type="button" class="filter-button">Веб-сайт</button></li>
-          <li>
+          <li class="button-list">
+            <button type="button" class="filter-button">Все</button>
+          </li>
+          <li class="button-list">
+            <button type="button" class="filter-button">Веб-сайт</button>
+          </li>
+          <li class="button-list">
             <button type="button" class="filter-button">Приложения</button>
           </li>
-          <li><button type="button" class="filter-button">Дизайн</button></li>
-          <li>
+          <li class="button-list">
+            <button type="button" class="filter-button">Дизайн</button>
+          </li>
+          <li class="button-list">
             <button type="button" class="filter-button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class="list all-services">
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img1.jpg"
@@ -64,7 +76,7 @@
               <p class="title-p">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img2.jpg"
@@ -75,7 +87,7 @@
               <p class="title-p">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img3.jpg"
@@ -86,7 +98,7 @@
               <p class="title-p">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img4.jpg"
@@ -97,7 +109,7 @@
               <p class="title-p">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img5.jpg"
@@ -108,7 +120,7 @@
               <p class="title-p">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img6.jpg"
@@ -119,7 +131,7 @@
               <p class="title-p">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img7.jpg"
@@ -130,7 +142,7 @@
               <p class="title-p">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img8.jpg"
@@ -141,7 +153,7 @@
               <p class="title-p">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="service-item">
             <a href="" class="links">
               <img
                 src="./img/img9.jpg"
@@ -161,18 +173,16 @@
       >
       <address>
         <ul class="list">
-          <li>
-            <a href="./index.html" class="place-info"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
+          <li class="adress-item">
+            <a href="" class="place-info">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
-          <li>
+          <li class="mail-item">
             <a href="mailto:info@example.com" class="contacts-footer"
               >info@example.com</a
             >
           </li>
           <li>
-            <a href="tel:+380991111111" class="contacts-footer"
+            <a href="tel:+38 099 111 11 11" class="contacts-footer"
               >+380991111111</a
             >
           </li>
