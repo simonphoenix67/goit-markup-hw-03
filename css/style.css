@@ -3,6 +3,7 @@
   --secondary-color: #FFFFFF;
   --brand-color: #2196F3;
   --additional-color: #757575;
+  --bg-our-team-color: #F5F4FA;
 }
 
 body {
@@ -131,7 +132,13 @@ width: 1200px;
 }
 
 .main-header {
+  width: 696px;
 margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;;
 }
 
 .preview-list {
@@ -175,6 +182,10 @@ padding-top: 94px;
 
 .footer-info {
   background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .place-info{
@@ -185,6 +196,16 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+}
+
+.adress-item {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.mail-item {
+  margin-bottom: 9px;
 }
 
 
@@ -244,8 +265,26 @@ h1 {
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 94px;
 }
 
+.our-team-list {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.our-team-bg {
+  background: var(--bg-our-team-color);
+  padding-bottom: 94px;
+}
 
 .our-business-item:not(:last-child) {
   margin-right: 30px;
@@ -256,6 +295,12 @@ font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  width: 270px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .employee-description {
@@ -263,8 +308,11 @@ font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  color: var(--additional-color)
+  color: var(--additional-color);
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .links:hover, .links:focus{
@@ -344,6 +392,11 @@ text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    margin-bottom: 50px;
+    text-align: center;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* img {
