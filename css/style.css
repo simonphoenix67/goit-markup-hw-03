@@ -22,7 +22,8 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+img {
   margin: 0;
   padding: 0;
 }
@@ -168,6 +169,7 @@ margin-right: auto;;
 
 .section {
 padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .section-out{
@@ -347,7 +349,7 @@ text-decoration: none;
   color: var(--main-color);
   text-decoration: none;
   padding-top: 20px;
-  padding: right 24px;
+  padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 4px;
   text-align: left;
@@ -451,6 +453,10 @@ text-decoration: none;
 
  .service-item:not(:last-child) {
 margin-right: 30px;
+ }
+
+ .border-card {
+  border: 1px solid #EEEEEE;
  }
 
 
