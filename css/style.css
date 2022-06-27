@@ -22,8 +22,8 @@ h4,
 h5,
 h6,
 p,
-ul,
-img {
+ul
+ {
   margin: 0;
   padding: 0;
 }
@@ -129,6 +129,7 @@ justify-content: flex-end;
     padding-bottom: 10px;
     padding-top: 10px;
     /* padding-bottom: 200px; */
+    /* border-radius: 3px; */
 }
 
 .big-text {
@@ -448,16 +449,23 @@ text-decoration: none;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 94px;
+
 }
 
  .service-item:not(:last-child) {
 margin-right: 30px;
  }
 
- .border-card {
-  border: 1px solid #EEEEEE;
+ .service-item {
+  outline: 1px solid #EEEEEE;
+  margin-bottom: 30px;
  }
+
+
+
+ /* .border-card {
+  border: 1px solid #EEEEEE;
+ } */
 
 
 
