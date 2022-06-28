@@ -48,23 +48,31 @@ ul
   min-height: 80px;
 } */
 
-.header-container {
-display: flex;
-align-items: center;
-}
+
 
 .container {
-  width: 1240px;
+  width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+.container-fix {
+text-align-last: left;
+  }
+
+  .header-container {
+display: flex;
+align-items: center;
+width: 1240px;
+}
   /* outline: 1px solid red; */
   /* align-items: center; */
   /* text-align: center;
   align-self: center */
 
-}
+
 
 .header {
   width: inherit;
@@ -135,9 +143,6 @@ justify-content: flex-end;
 .big-text {
 background-color: #2F303A;
 color: var(--secondary-color);
-text-align: center;
-margin-right: auto;
-margin-left: auto;
 padding-top: 200px;
 padding-bottom: 200px;
 /* вниз падинг, перенести "для", кнопка с падингом низ */
@@ -175,6 +180,7 @@ padding-bottom: 94px;
 
 .section-out{
   padding-bottom: 94px;
+  padding-top: 0px;
 }
 
 .contacts-info {
@@ -327,10 +333,14 @@ font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--additional-color);
-  margin-bottom: 30px;
+
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.description-item {
+  margin-bottom: 30px;
 }
 /* add div to h3 and p3 */
 .links:hover, .links:focus{
